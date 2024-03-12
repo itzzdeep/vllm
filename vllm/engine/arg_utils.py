@@ -42,7 +42,7 @@ class EngineArgs:
     disable_custom_all_reduce: bool = False
     enable_lora: bool = False
     max_loras: int = 1
-    max_lora_rank: int = 16
+    max_lora_rank: int = 64
     lora_extra_vocab_size: int = 256
     lora_dtype = 'auto'
     max_cpu_loras: Optional[int] = None
